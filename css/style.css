@@ -1,0 +1,180 @@
+.nav{
+    display: flex;
+    position: sticky;
+    background-color: brown;
+    height: 70px;
+    width: 100%;
+}
+.navbarR{
+    width: 50%;
+    display: flex;
+    position: sticky;
+    justify-content: flex-start;
+}
+.navtools{
+    font-family: 'Satisfy', cursive;
+    width: 50%;
+    display: flex;
+    position: sticky;
+    justify-content: space-evenly;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px;
+}
+#About, #Career:hover, #contactus:hover {
+    color:rgb(187, 145, 91)
+    
+}
+#Career, #contactus {
+    color: beige
+    
+}
+#imgnavbar{
+    height: 60px;
+    width: 50px;
+    margin-left: 40px;
+}
+.home{
+    color: beige;
+    font-family: 'Satisfy', cursive;
+}
+body{
+    background-image:url(../img/fresh-french-croissants-tablecloth_144627-4404.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome{
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 80%;
+    height: 300px;
+    background-color: rgba(216, 180, 133, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.p1{
+    margin-left: 350px;
+    margin-right: 200px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: normal;
+}
+.p2{
+    margin-top: 0.5px;
+    margin-left: 270px;
+    color: brown;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+
+}
+.p3{
+    padding-bottom: 20px;
+    margin-left: 330px;
+    margin-right: 200px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: normal;
+}
+.fixed-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+#text{
+    height: 40px;
+    width: 40px;
+}
+.totop{
+    position: fixed;
+    margin-bottom: 70px;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#top{
+    height: 40px;
+    width: 40px;
+}
+.title1{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: burlywood;
+    color: brown;
+    height: 50px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.items div {
+    border-radius: 3%;
+    margin: 0.44%;
+}
+.items {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#itemsimg{
+    height: 300px;
+    width: 300px;
+}
+p {
+    font-size: medium;
+    color: brown;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 0.5px;
+    padding-left: 20px;
+}
+#coffeeimg{
+    height: 150px;
+    width: 150px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    background-color: brown;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+#social{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.endL{
+    display: flex;
+    justify-content: center;
+}
+#pend{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: black;
+}
